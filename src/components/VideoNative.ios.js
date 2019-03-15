@@ -12,10 +12,10 @@ import {
   Text,
   findNodeHandle
 } from 'react-native';
-import {VideoNativeAdLoader} from '../ad/VideoNativeAd';
-import type {VideoNativeAd} from '../ad/VideoNativeAd';
-import MediaView from '../ad/MediaView';
-import UserFeature from '../ad/UserFeature';
+import {VideoNativeAdLoader} from 'react-native-nend-sdk';
+import type {VideoNativeAd} from 'react-native-nend-sdk';
+import {MediaView} from 'react-native-nend-sdk';
+import {UserFeature} from 'react-native-nend-sdk';
 import Button from './Button';
 
 type State = {

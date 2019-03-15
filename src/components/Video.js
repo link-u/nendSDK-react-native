@@ -11,11 +11,11 @@ import {
 } from 'react-native';
 import {
   RewardedVideoAd,
-  InterstitialVideoAd
-} from '../ad/VideoAd';
-import type {RewardItem} from '../ad/VideoAd';
+  InterstitialVideoAd,
+  UserFeature
+} from 'react-native-nend-sdk';
+import type {RewardItem} from 'react-native-nend-sdk';
 import Button from './Button'
-import UserFeature from '../ad/UserFeature';
 
 export default class Video extends React.Component<{}, {}> {
     rewardedVideoAd: RewardedVideoAd;

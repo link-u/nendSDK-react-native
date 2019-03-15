@@ -9,8 +9,8 @@ import {
   Alert,
   View
 } from 'react-native';
-import InterstitialAd from '../ad/InterstitialAd';
-import type {ClickType} from '../ad/InterstitialAd';
+import {InterstitialAd} from 'react-native-nend-sdk';
+import type ClickType from  'react-native-nend-sdk';
 import Button from './Button'
 
 export default class Interstitial extends React.Component<{}, {}> {

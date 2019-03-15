@@ -13,11 +13,11 @@ import {
     Platform,
     TouchableHighlight
 } from 'react-native';
+import type {AdExplicitly} from 'react-native-nend-sdk';
 import {
-    NativeAd,
-    NativeAdLoader
-} from "../ad/NativeAd";
-import type {AdExplicitly} from "../ad/NativeAd";
+  NativeAd,
+  NativeAdLoader
+} from "react-native-nend-sdk";
 
 type State = {
     adImageUrl: string,
@@ -61,7 +61,8 @@ export default class Native extends React.Component<{}, State> {
 
     async componentDidMount() {
         try {
-            const ad: NativeAd = await this._adLoader.loadAd('PR')
+            const ad: NativeAd = await this._adLoader.loadAd('PR');
+            console.log("HERE");
             this.setState({
                 adImageUrl: ad.adImageUrl,
                 logoImageUrl: ad.logoImageUrl,

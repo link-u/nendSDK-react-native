@@ -9,7 +9,7 @@ import {
   Text,
   View
 } from 'react-native';
-import AdView from '../ad/AdView';
+import {AdView} from 'react-native-nend-sdk';
 
 export default class Banner extends React.Component<{}, {}> {
     static navigationOptions = {
