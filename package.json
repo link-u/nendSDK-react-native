@@ -10,7 +10,7 @@
     "react": "16.4.1",
     "react-native": "0.56.0",
     "react-navigation": "^2.7.0",
-    "react-native-nend-sdk": "git+https://github.com/link-u/react-native-nend-sdk.git"
+    "react-native-nend-sdk": "git+https://github.com/link-u/react-native-nend-sdk.git#v5.1.1-alpha.2"
   },
   "devDependencies": {
     "babel-jest": "23.2.0",
